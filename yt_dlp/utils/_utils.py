@@ -2800,7 +2800,7 @@ POSTPROCESS_WHEN = ('pre_process', 'after_filter', 'video', 'before_dl', 'post_p
 
 DEFAULT_OUTTMPL = {
     'default': '%(title)s [%(id)s].%(ext)s',
-    'chapter': '%(title)s - %(section_number)03d %(section_title)s [%(id)s].%(ext)s',
+    'chapter': '/opt/Media/%(uploader)s/%(upload_date)s__%(section_number)03d__%(section_title)s__%(title)s__%(duration)s.%(ext)s',
 }
 OUTTMPL_TYPES = {
     'chapter': None,
